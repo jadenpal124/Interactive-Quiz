@@ -1,0 +1,70 @@
+body { 
+    background: #00A5E3;
+}
+
+.quizApp { 
+    background-color: white;
+    width: 80%;
+    max-width: 500px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 40px;
+}
+ h1 { 
+    font-weight: 35px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid black;
+    margin: auto;
+    width: 60%;
+
+ }
+
+ h2 { 
+    font-weight: 100;
+    margin: 20px auto;  
+    width: 50%;
+ }
+
+ #answer-buttons{
+    margin: auto;
+    width:50%;
+ }
+
+ .ans { 
+    margin: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: 1s;
+
+ }
+
+ .ans:hover {
+    background: black;
+    color: white;
+ }
+
+ .ans::selection{ 
+    background-color:#00A5E3;
+    color: white;
+
+ }
+
+ #next-btn { 
+    margin: auto;
+    background-color: #00A5E3;
+    color:white;
+    width: 100%;
+    padding:  10px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+
+ .correct { 
+    background-color: green;
+ }
+
+ .incorrect { 
+    background-color: red;
+ }
